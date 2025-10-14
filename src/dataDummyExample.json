@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "descripcion": "Tarjeta Visa",
+    "montoTotal": 2000,
+    "montoPagado": 500,
+    "categoria": "Tarjetas",
+    "fechaLimite": "2025-11-01",
+    "prioridad": 1,
+    "redisponible": true,
+    "montoRedisponible": 800,
+    "tipoCuenta": "tarjeta_credito",
+    "recordatorioAumentoLinea": true,
+    "fechaCorte": "2025-10-25",
+    "porcentajeRecomendado": 30,
+    "movimientos": []
+  }
+]
