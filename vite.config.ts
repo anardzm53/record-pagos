@@ -35,7 +35,7 @@ export default defineConfig({
           target: "https://github.com/anardzm53/record-pagos/blob/main/src/main.tsx",
           changeOrigin: true
         },
-        "mirute/entry.js": {
+        "src/main.tsx": {
           target: "dist/assets/remoteEntry.js"
         }
       }
