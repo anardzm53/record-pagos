@@ -20,7 +20,7 @@ export default defineConfig({
   ],
   server: {
       proxy: {
-        "": {
+        "/src/main.tsx": {
           target: "https://github.com/anardzm53/record-pagos/blob/main/src/main.tsx",
           changeOrigin: true
         }
