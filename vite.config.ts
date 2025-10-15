@@ -18,4 +18,12 @@ export default defineConfig({
     //   },
     // })
   ],
+  server: {
+      proxy: {
+        "": {
+          target: "https://github.com/anardzm53/record-pagos/blob/main/src/main.tsx",
+          changeOrigin: true
+        }
+      }
+    }
 })
