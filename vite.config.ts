@@ -6,7 +6,7 @@ import federation from "@originjs/vite-plugin-federation"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/',
   plugins: [react(),tailwindcss(),
     federation({
       name: "remote-app",
@@ -34,6 +34,9 @@ export default defineConfig({
         "/src/main.tsx": {
           target: "https://github.com/anardzm53/record-pagos/blob/main/src/main.tsx",
           changeOrigin: true
+        },
+        "mirute/entry.js": {
+          target: "dist/assets/remoteEntry.js"
         }
       }
     }
